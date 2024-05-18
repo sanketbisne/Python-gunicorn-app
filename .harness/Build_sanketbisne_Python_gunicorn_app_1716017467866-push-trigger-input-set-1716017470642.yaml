@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sanketbisne_Python_gunicorn_app_1716017467866-push-trigger-input-set
+  identifier: Build_sanketbisne_Python_gunicorn_app_1716017467866pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sanketbisne_Python_gunicorn_app_1716017467866
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
